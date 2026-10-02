@@ -1,0 +1,6 @@
+{
+  "name": "CCicol Cardiodata - Dashboard Clínico Multivariable",
+  "description": "Plataforma de inteligencia de datos clínicos y gestión del conocimiento para procedimientos cardiovasculares en CCicol S.A.S. Cruce multivariable, comparativa mensual y carga de reportes PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

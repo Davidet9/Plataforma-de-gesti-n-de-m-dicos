@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* CCICOL Official Brand Colors (Order of relevance: #d21d1f, #d21d1f, #162b6f) */
+  --color-brand-red: #d21d1f;
+  --color-brand-red-hover: #b51719;
+  --color-brand-red-dark: #8c0f11;
+  --color-brand-red-light: #fff1f2;
+  --color-brand-red-subtle: #fef2f2;
+  
+  --color-brand-navy: #162b6f;
+  --color-brand-navy-hover: #102053;
+  --color-brand-navy-dark: #0a1438;
+  --color-brand-navy-light: #f0f4fc;
+  --color-brand-navy-subtle: #e6edfa;
+}
+
+/* Custom scrollbar for dense clinical data tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
